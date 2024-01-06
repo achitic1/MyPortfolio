@@ -1,0 +1,71 @@
+/* Custom CSS Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #00FC83;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
+
+nav {
+    background-color: #eee;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: #333;
+}
+
+.hero {
+    background-image: url('ps1.jpg'); /* Add your hero image URL */
+    background-size: cover;
+    max-height: 1000px;
+    color: white;
+    text-align: center;
+    padding: 5em 0;
+}
+
+section {
+    padding: 3em 0;
+    text-align: center;
+}
+
+#about-me p {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#projects p {
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    align-items: center;
+}
+
+#contact p {
+    margin: 5px 0;
+}
+
+
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 1em;
+    text-align: center;
+}
