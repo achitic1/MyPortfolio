@@ -4,25 +4,26 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #333;
 }
 
 header {
     background-color: #00FC83;
-    color: white;
+    color: #333;
     padding: 1em;
     text-align: center;
 }
 
 nav {
-    background-color: #eee;
+    background-color: #333;
     padding: 1em;
     text-align: center;
 }
 
 nav a {
+    color: white;
     margin: 0 1em;
     text-decoration: none;
-    color: #333;
 }
 
 .hero {
@@ -39,18 +40,68 @@ section {
     text-align: center;
 }
 
+#about-me{
+    position: relative;
+    padding: 20px;
+    background-color: #00fc83;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
 #about-me p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 100px;
     margin-right: 100px;
 }
 
+#projects {
+    position: relative;
+    padding: 20px;
+    background-color: #00fc83;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
 #projects p {
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-left: 100px;
     margin-right: 100px;
     text-align: left;
 }
 
+#skills {
+    text-align: center;
+    position: relative;
+    padding: 20px;
+    background-color: #00fc83;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+}
+
+#skills ul {
+    list-style-position: inside;
+    padding-left: 0;
+    display: inline-block;
+    column-count: 2;
+}
+
+#skills li {
+    text-align:  left;
+}
+
 #contact {
+    position: relative;
+    padding: 20px;
+    background-color: #00fc83;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 50px;
+    
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -60,8 +111,6 @@ section {
 #contact p {
     margin: 5px 0;
 }
-
-
 
 footer {
     background-color: #333;
