@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang=""en">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="src/styles.css">
 
     <!-- Script tags -->
-    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>   
+      
 </head>
 
 <body>
@@ -20,6 +19,7 @@
     <nav>
         <a href="#about-me">About Me</a>
         <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
     </nav>
 
@@ -30,7 +30,8 @@
 
     <section id="about-me">
         <h2>About Me</h2>
-        <p>I am a computer science student at the University of Maryland and I expect to graduate in May 2025. My interests are 
+        <p>
+            I am a computer science student at the University of Maryland and I expect to graduate in May 2025. My interests are 
             in software and game development. I am someone who is fascinated by technology and I am eager to continue learning 
             every day. I like to embrace a challenge and use it as an opportunity to learn and grow as a person and professional. 
             I hope that my work throughout my career will impact the world in a positive way. <br><br>
@@ -44,18 +45,40 @@
         <h2>Projects</h2>
 
         <div>
-            <p><strong>Project: Regular Expressions Engine</strong><br>
-                Description: Implemented algorithms for working with Non-deterministic Finite Automata (NFAs),
+            <p>
+                <strong>Project</strong>: <em>Regular Expressions Engine</em><br>
+                <strong>Description</strong>: Implemented algorithms for working with Non-deterministic Finite Automata (NFAs),
                 Deterministic Finite Automata (DFAs), and regular expressions.
-                Developed functions for NFA to DFA conversion, move and epsilon closure operations, and constructed NFAs from regular expressions.</p>
+                Developed functions for NFA to DFA conversion, move and epsilon closure operations, and constructed NFAs from regular expressions.
+            </p>  
+
+            <div>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>Python</li>
+                    <li>Regular Expressions</li>
+                    <li>Git</li>
+                </ul>
+            </div>
         </div>
 
         <div>
-            <p><strong>Project: Lambda Calculus Interpreter</strong><br>
-                Description: Implemented a lexer, parser, and evaluator to be used for a Lambda Calculus Interpreter as well as an English to Lambda Calculus complier.
+            <p>
+                <strong>Project</strong>: <em>Lambda Calculus Interpreter</em><br>
+                <strong>Description</strong>: Implemented a lexer, parser, and evaluator to be used for a Lambda Calculus Interpreter as well as an English to Lambda Calculus complier.
                 The project was restrained to only using functional OCaml no imperative features were permitted.
                 The lexer made use of regular expressions, a recursive descent parser was implemented, functions to reduce lambda expressions were also implemented.
-                This project supplied me with a deeper understanding about the workings of compliers and interpreters.</p>
+                This project supplied me with a deeper understanding about the workings of compliers and interpreters.
+            </p>
+
+            <div>
+                <p>Technologies Used:</p>
+                <ul>
+                    <li>OCaml</li>
+                    <li>Bash Shell</li>
+                    <li>Git</li>
+                </ul>
+            </div>
         </div>
     </section>
 
@@ -65,17 +88,19 @@
             <li>Java</li>
             <li>Python</li>
             <li>C</li>
+            <li>OCaml</li>
             <li>HTML and CSS</li>
-            <li>Linux</li>
+            <li>Linux (Command Line and Bash)</li>
             <li>Git</li>
+            <li>Microsoft Office</li>
         </ul>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-            <p>My Email: <a href="mailto:anthonychitic17@gmail.com">anthonychitic17@gmail.com</a></p>
-            <p>My LinkedIn: <a href="https://www.linkedin.com/in/anthonychitic/" target="_blank">LinkedIn</a></p>
-            <p>My GitHub: <a href="https://github.com/achitic1" target="_blank">GitHub</a></p>
+            <p>Email: <a href="mailto:anthonychitic17@gmail.com">anthonychitic17@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/anthonychitic/" target="_blank">LinkedIn</a></p>
+            <p>GitHub: <a href="https://github.com/achitic1" target="_blank">GitHub</a></p>
     </section>
 
     <div id="root"></div>
@@ -83,8 +108,6 @@
     <footer>
         <p>&copy; 2024 Anthony Chitic - Portfolio</p>
     </footer>
-
-    <script src="script.js"></script>
 
 </body>
 </html>
